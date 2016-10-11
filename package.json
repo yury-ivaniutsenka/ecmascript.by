@@ -1,0 +1,24 @@
+{
+  "name": "jscommunity.by",
+  "version": "1.0.0",
+  "description": "Communuty of javascript programmers from the Republic of Belarus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yury-ivaniutsenka/jscommunity.by.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "community"
+  ],
+  "author": "Yury Ivaniutsenka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yury-ivaniutsenka/jscommunity.by/issues"
+  },
+  "homepage": "https://github.com/yury-ivaniutsenka/jscommunity.by#readme"
+}
