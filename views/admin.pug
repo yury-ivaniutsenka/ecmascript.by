@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  div(class="container")
+    h1 Users
+    div(class="clearfix")
+      a(href='/admin/user/add' class="btn btn-primary float-right") add
+    table(class="table table-hover")
+      thead(class="thead-inverse")
+        tr
+          th #
+          th email
+          th edit
+          th delete
+      - for(var i = 0; i < users.length; i++) {
+      tr
+        th(scope="row") #{i}
+        td #{users[i].email}
+        td
+          a(href='/admin/user/' + users[i].id) edit
+        td
+          a(href='/admin/user/delete/' + users[i].id) delete
+      - }

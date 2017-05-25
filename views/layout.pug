@@ -5,6 +5,11 @@ html
         link(rel = 'stylesheet', href = '/stylesheets/style.css')
         script(src = '/javascripts/materialize.min.js')
     body
+        header
+            div(class='container')
+                a(href='/companies' class='right menu') companies
+                h4
+                    a(href='/') jscommunity.by
         block content
         script.
             (function (i, s, o, g, r, a, m) {
