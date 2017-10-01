@@ -10,4 +10,4 @@ require('./app/router')(app);
 require('./app/404')(app);
 require('./app/error_handler')(app);
 
-app.listen(3000);
+app.listen(80);
