@@ -2,7 +2,7 @@ var express = require('express');
 var path = require('path');
 var app = express();
 
-require('./app/db');
+//require('./app/db');
 require('./app/init')(app);
 require('./app/static')(app);
 require('./app/authenticate')(app);
