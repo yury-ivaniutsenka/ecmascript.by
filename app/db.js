@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/scania');
+mongoose.connect('mongodb://localhost/site');
 mongoose.Promise = global.Promise;
 
 
